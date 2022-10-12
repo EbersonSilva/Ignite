@@ -1,0 +1,16 @@
+.taskEmpty {
+  width: 46rem;
+  height: 15.25rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem;
+  border-top: 1px solid var(--gray-400);
+}
+
+.taskEmpty img {
+  margin-bottom: 1rem;
+}
+
+.taskEmpty span {
+  font-weight: bold;
+}

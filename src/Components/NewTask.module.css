@@ -1,0 +1,74 @@
+.body {
+  margin-bottom: 1.5rem;
+}
+
+.newtask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newtask input {
+  color: var(--gray-100);
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  flex: 1;
+  background: var(--gray-500);
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+
+.newtask button {
+  background: var(--blue);
+  border-radius: 8px;
+  border: 0;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  padding: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.newtask button:hover {
+  background: var(--blue-dark);
+  transition: all 0.3s;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 0.875rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.infoCreate {
+  color: var(--blue);
+}
+
+.infoCreate span {
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  padding: 0.3rem;
+  clip-path: circle();
+  background: var(--gray-400);
+  margin-left: 0.5rem;
+}
+
+.infoDone {
+  color: var(--purple);
+}
+
+.infoDone span {
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  padding: 0.3rem;
+  clip-path: circle();
+  background: var(--gray-400);
+  margin-left: 0.5rem;
+}
